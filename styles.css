@@ -1,6 +1,14 @@
 body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center
+  
 }
+.enfatizar {
+    font-weight: bold;
+    color: #ff0000;
+    transition: color 0.3s, font-weight 0.3s;
+}
+/*      
+ */
