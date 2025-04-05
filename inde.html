@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: lightblue;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .main {
+            background-color: white;
+            padding: 20px;
+            flex: 1;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            border-radius: 10px;
+        }
+        .rodape {
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1px;
+            position:relative
+            bottom: 0;
+            width: 100%;
+            color: white;
+            
+            
+        }
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main class="principal">
+            <h1>
+                Aqui é o meu primeiro projeto com HTML e CSS
+            </h1>
+            <p>
+                Olá, meu nome é Daniel e estou aprendendo HTML e CSS. Este é o meu primeiro projeto, onde estou praticando a criação de páginas web.
+            </p>
+        </main>
+    </div>
+    <section>
+        <footer class="rodape">
+            <p>Desenvolvedor: Daniel</p>
+            <p>&copy; 2025 - Todos os direitos reservados.</p>
+        </footer>
+    </section>
+    
+</body>
+</html>

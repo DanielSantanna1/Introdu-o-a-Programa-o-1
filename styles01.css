@@ -1,27 +1,27 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: Arial, sans-serif; /* Use a sans-serif font for better readability */
+    line-height: 1.6;   /* Increase line height for better readability */
+    background-color: #f4f4f4;  /* Light background color for the body */
+    color: #333; /* Dark text color for contrast */
 }
 
 
 header {
-    background-color: #333;
+    background-color: #333; 
     color: #fff;
     padding: 1rem 0;
 }
 
 nav ul {
-    list-style-type: none;
-    text-align: center;
+    list-style-type: none; /* Remove default list style */
+    text-align: center; /* Center the navigation items */
 }
 
 nav ul li {
@@ -76,7 +76,7 @@ form label {
 form input, form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Space between inputs */
     border: 1px solid #ccc;
     border-radius: 5px;
 }
